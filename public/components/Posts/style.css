@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.post {
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    flex-shrink: 0;
+    display: flex;
+    position: relative;
+    overflow: visible;
+    margin-left: 300px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    width: 470px;
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.profile {
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;  
+    margin-top: 10px;
+}
+
+.name {
+    font-family: Helvetica;
+    font-size: 11pt;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.options {
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    right: 15px;
+}
+
+.publication {
+    position: absolute;
+    width: 470px;
+    height: 465px;
+    top: 58px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
+.like {
+    position: absolute;
+    width: 25px;
+    margin-top: 535px;
+    margin-left: 15px;
+}
+
+.coment {
+    position: absolute;
+    width: 25px;
+    margin-top: 535px;
+    margin-left: 60px;
+}
+
+.send {
+    position: absolute;
+    width: 22px;
+    margin-top: 538px;
+    left: 100px;
+}
+
+.save {
+    position: absolute;
+    width: 23px;
+    margin-top: 535px;
+    right: 15px;
+}
+
+.likes {
+    font-family: Helvetica;
+    font-size: 11pt;
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 15px;
+}
+
+.user1 {
+    font-family: Helvetica;
+    font-size: 11pt;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 595px;
+    margin-left: 15px;
+}
+
+.viewcoments {
+    font-family: Helvetica;
+    font-size: 9pt;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 15px;
+    color: rgb(118, 118, 118);
+}
+
+.days {
+    font-family: Helvetica;
+    font-size: 9pt;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 15px;
+    color: rgb(133, 133, 133);
+}

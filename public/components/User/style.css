@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.usercontainer {
+    position: absolute;
+    display: flex;
+    margin-left: 800px;
+    top: 90px;
+    overflow: visible;
+    width: 365px;
+    height: 110px;
+}
+
+.profile {
+    position: absolute;
+    width: 65px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+}
+
+.user {
+    font-family: Helvetica;
+    font-size: 13px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
+.name {
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    top: 43px;
+    left: 100px;
+    color: rgb(106, 106, 106);
+}
+
+.status {
+    font-family: Helvetica;
+    font-size: 13px;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    color: rgb(65, 170, 255);
+}
+
+.sugest {
+    font-family: Helvetica;
+    font-size: 11pt;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    color: rgb(157, 157, 157);
+}
+
+.seeall {
+    font-family: Helvetica;
+    font-size: 9pt;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+}
